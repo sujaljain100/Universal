@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" id="navbar">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="font-size: 40px; margin-left: 30px"
+          >Topic</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navlinks">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Browse Topics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How it works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#" style="color: black"
+                    >Action</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" style="color: black"
+                    >Another action</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#" style="color: black"
+                    >Something else here</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-user" id="fa-user"></i>
+      </div>
+    </nav>
+
+    <!-- section -->
+    <section class="sec1">
+      <div class="sec_content">
+        <h1>Discover. Learn. Enjoy</h1>
+        <br />
+        <span>platform for creative around world</span>
+      </div>
+      <input type="search" /><i class="fa-solid fa-magnifying-glass"></i
+      ><button>Search</button>
+    </section>
+
+    <div class="boxes">
+      <div class="card" style="width: 28rem">
+        <img src="web.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 28rem">
+        <img src="web2.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="sec2">
+      <center><h1>Browse Topics</h1></center>
+      <div class="list">
+        <ul>
+          <li onclick="design()">Design</li>
+          <li onclick="m()">Marketing</li>
+          <li onclick="f()">Finance</li>
+          <li onclick="misic()">Music</li>
+          <li onclick="e()">Education</li>
+        </ul>
+      </div>
+
+
+
+      <!-- digital -->
+      <div id="cards3">
+        <div class="card mb-3 card11" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="web.jpeg" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 card11" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="web.jpeg" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 card11" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="web.jpeg" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div id="cards4">
+        <div class="card mb-3 card11" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="web2.jpeg" class="img-fluid rounded-start" alt="..." height="200px" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nesciunt aliquam? In eos debitis, beatae suscipit, est exercitationem quis reprehenderit tempore ad eligendi corrupti libero sit veritatis. Minus, nam. Officia.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 card11" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="web2.jpeg" class="img-fluid rounded-start" alt="..." height="200px" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nesciunt aliquam? In eos debitis, beatae suscipit, est exercitationem quis reprehenderit tempore ad eligendi corrupti libero sit veritatis. Minus, nam. Officia.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 card11" >
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="web2.jpeg" class="img-fluid rounded-start" alt="..." height="200px" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nesciunt aliquam? In eos debitis, beatae suscipit, est exercitationem quis reprehenderit tempore ad eligendi corrupti libero sit veritatis. Minus, nam. Officia.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="images" id="hiiimage">
+        <img src="Screenshot 2024-07-24 202502.png" alt="" height="300px">
+        <img src="Screenshot 2024-07-24 232014.png" alt="" height="300px">
+        <img src="Screenshot 2024-07-25 002648.png" alt="" height="300px">
+      </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="bootstrap.bundle.js"></script>
+    <script>
+        var cards3 = document.getElementById("cards3")
+        var cards4 = document.getElementById("cards4") 
+       var images = document.getElementById("hiiimage")
+       cards4.style.display="none"
+         images.style.display="none"
+      var design=()=>{
+      
+        cards3.style="#cards3"
+        cards4.style.display="none"
+        images.style.display="none"
+      }
+      var m=()=>{
+        // var cards3 = document.getElementById("cards3")
+        // var cards4 = document.getElementById("cards4")
+         cards3.style.display="none"
+        cards4.style="#cards3"
+        images.style.display="none"
+      }
+
+      var f=()=>{
+        // var cards3 = document.getElementById("cards3")
+        // var cards4 = document.getElementById("cards4")
+        
+         cards3.style.display="none"
+        cards4.style.display="none"
+      images.style="#cards3"
+      }
+      
+    </script>
+  </body>
+</html>
