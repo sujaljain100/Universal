@@ -1,0 +1,129 @@
+
+#navbar{
+    background-color: #519BA6;
+   
+   
+}
+#navbar a{
+    color: white;
+}
+#navlinks{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+.dropdown-menu li a{
+    color: black;
+}
+.sec1{
+    height: 600px;
+    background-color: #438A9C;
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 400px;
+    padding-left: 500px;
+    
+}
+.sec1 h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.sec1 span{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+    letter-spacing: 3px;
+    position: relative;
+    top: -20px;
+}
+.sec1 input{
+    width: 80%;
+    margin-top: 30px;
+    height: 59px;
+    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+}
+.sec1 i{
+    position: relative;
+    right: 554px;
+    top: -1px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+    height: 59px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+}
+.sec1 button{
+    margin-left: 400px;
+    border-radius: 23px;
+    padding: 8px 18px;
+    position: relative;
+    background-color: green;
+    color: white;
+    border: none;
+    top: -51px;
+}
+#fa-user{
+    background-color: white;
+    padding: 13px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    background-color: #80D0C7;
+}
+.sec2{
+    background-color: aliceblue;
+    height: 700px;
+    padding-bottom: 300px;
+}
+.sec2 center{
+    padding-top: 65px;
+}
+.list ul{
+    display: flex;justify-content: center;gap: 80px;margin-top: 30px;
+}
+.list ul li{
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list ul li:hover{
+    list-style: none;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+#cards3,#cards4,.images{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.card11{
+    width: 400px;
+    height: 300px;
+
+  
+}
+
+.sec3{
+    height: 650px;
+    background-color: purple;
+
+}
